@@ -1,6 +1,6 @@
 # LIDO für Archäologie
 
-Dieses Repo dient dem Austausch und kollaborativen Arbeiten der Unterarbeitsgruppe **LIDO für Archäologie** der deutschen LIDO AG.
+Dieses Repo dient dem Austausch und kollaborativen Arbeiten der Unterarbeitsgruppe "LIDO für Archäologie" der deutschen LIDO AG.
 
 In der archäologischen und objektbezogenen Forschung und Erschließung werden heterogene und multidisziplinäre Daten generiert, die sich auf sämtliche Phasen der materiellen und immateriellen Objektgeschichte beziehen. Diese umfassen beispielsweise Ausgrabungsdaten einschließlich stratigrafischer Informationen und Kontextdokumentationen, Sammlungs- und Provenienzinformationen, Laboranalysen, Konservierungs- und Restaurierungsmaßnahmen oder Daten aus der Bau- und Denkmalforschung.  
 
