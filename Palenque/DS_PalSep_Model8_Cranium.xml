@@ -1,0 +1,214 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<lido:lidoWrap xmlns:lido="http://www.lido-schema.org" xmlns:xalan="http://xml.apache.org/xalan">
+	<lido:lido>
+		<lido:lidoRecID lido:type="http://terminology.lido-schema.org/lido000100">DE-19/PalSep_Model8</lido:lidoRecID>
+		<lido:category>
+			<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00097</lido:conceptID>
+			<lido:term xml:lang="en">biological object</lido:term>
+		</lido:category>
+		<lido:descriptiveMetadata xml:lang="en">
+			<lido:objectClassificationWrap>
+				<lido:objectWorkTypeWrap>
+					<lido:objectWorkType>
+						<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q28947902</lido:conceptID>
+						<lido:term xml:lang="en">Cranium</lido:term>
+					</lido:objectWorkType>
+				</lido:objectWorkTypeWrap>
+				<lido:classificationWrap>
+					<lido:classification lido:type="http://terminology.lido-schema.org/lido00853">
+						<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q105525662</lido:conceptID>
+						<lido:term xml:lang="en">Human remains</lido:term>
+					</lido:classification>
+					<lido:classification lido:type="http://terminology.lido-schema.org/lido00932">
+						<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q28567</lido:conceptID>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Maya civilization</lido:term>
+					</lido:classification>
+				</lido:classificationWrap>
+			</lido:objectClassificationWrap>
+			<lido:objectIdentificationWrap>
+				<lido:titleWrap>
+					<lido:titleSet>
+						<lido:appellationValue>Bone: Reconstructed incomplete Cranium, Individual 7B from Burial 7</lido:appellationValue>
+					</lido:titleSet>
+				</lido:titleWrap>
+				<lido:repositoryWrap>
+					<lido:repositorySet lido:type="http://terminology.lido-schema.org/lido00475">
+						<lido:repositoryName/>
+						<!--In repositoryName ist die Einrichtung zu nennen, nicht - wie in Andreas' Version - der Ort-->
+						<lido:workID lido:type="http://terminology.lido-schema.org/lido00113">PalSep_Model8</lido:workID>
+						<lido:repositoryLocation>
+							<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/entity/Q1859841</lido:placeID>
+							<lido:namePlaceSet>
+								<lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="eng">Palenque Municipality</lido:appellationValue>
+							</lido:namePlaceSet>
+						</lido:repositoryLocation>
+					</lido:repositorySet>
+				</lido:repositoryWrap>
+				<lido:objectDescriptionWrap>
+					<lido:objectDescriptionSet lido:type="Object Description">
+						<lido:descriptiveNoteValue xml:lang="en">Reconstructed incomplete cranium of a male adult individual</lido:descriptiveNoteValue>
+					</lido:objectDescriptionSet>
+					<lido:objectDescriptionSet>
+						<lido:descriptiveNoteValue xml:lang="en">Estimated age: 43.9 ys</lido:descriptiveNoteValue>
+					</lido:objectDescriptionSet>
+				</lido:objectDescriptionWrap>
+			</lido:objectIdentificationWrap>
+			<lido:eventWrap>
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00028</lido:conceptID>
+							<lido:term xml:lang="en">Beginning of existence</lido:term>
+						</lido:eventType>
+						<lido:periodName lido:type="http://terminology.lido-schema.org/lido00731">
+							<lido:term>Murciélagos-Balunté</lido:term>
+						</lido:periodName>
+						<lido:eventPlace>
+							<lido:place>
+								<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q181427</lido:placeID>
+								<lido:namePlaceSet>
+									<lido:appellationValue>Palenque</lido:appellationValue>
+								</lido:namePlaceSet>
+							</lido:place>
+						</lido:eventPlace>
+						<lido:thingPresent>
+							<lido:object>
+							<lido:objectWebResource>123</lido:objectWebResource>
+								<lido:objectName>
+									<lido:appellationValue xml:lang="en">Individual 7-B</lido:appellationValue>
+								</lido:objectName> 
+								<lido:objectNote xml:lang="en">Estimated age: 43.9 ys</lido:objectNote>
+								<!--Wenn eine Person gestorben ist, kann sie nicht an einem Ereignis beteiligt sein. Daher kommt nur thingPresent in Frage-->
+							</lido:object>
+						</lido:thingPresent>
+						<lido:relatedEventSet>
+							<lido:relatedEvent>
+								<lido:displayEvent xml:lang="en">Death of the burried person</lido:displayEvent>
+							</lido:relatedEvent>
+							<lido:relatedEventRelType>
+								<lido:term xml:lang="en">Funeral of the deceased</lido:term>
+							</lido:relatedEventRelType>
+						</lido:relatedEventSet>
+						<lido:eventDescriptionSet>
+							<lido:descriptiveNoteValue xml:lang="en">The individual’s physical remains underwent natural decomposition, resulting in the preservation of the skull, which later became an archaeological object of study.</lido:descriptiveNoteValue>
+						</lido:eventDescriptionSet>
+					</lido:event>
+				</lido:eventSet>
+				<lido:eventSet>
+					<lido:event>
+						<lido:eventType>
+							<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00033</lido:conceptID>
+							<lido:term xml:lang="en">Excavation</lido:term>
+						</lido:eventType>
+						<lido:eventActor>
+							<lido:actorInRole>
+								<lido:actor>
+									<lido:actorID lido:type="http://terminology.lido-schema.org/lido00099">https://orcid.org/0000-0001-5395-739X</lido:actorID>
+									<lido:nameActorSet>
+										<lido:appellationValue>De Tomassi, Mirko</lido:appellationValue>
+									</lido:nameActorSet>
+								</lido:actor>
+								<lido:roleActor>
+									<lido:term xml:lang="en">archaeologist</lido:term>
+								</lido:roleActor>
+							</lido:actorInRole>
+						</lido:eventActor>
+						<lido:eventDate>
+							<lido:date>
+								<lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:earliestDate>
+								<lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:latestDate>
+							</lido:date>
+						</lido:eventDate>
+						<lido:eventPlace>
+							<lido:place>
+								<lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q181427</lido:placeID>
+								<lido:namePlaceSet>
+									<lido:appellationValue>Palenque</lido:appellationValue>
+								</lido:namePlaceSet>
+							</lido:place>
+						</lido:eventPlace>
+						<lido:eventDescriptionSet lido:type="excavations description">
+						<!--Neues Type-Attribut in LIDO-Terminologie?-->
+							<lido:descriptiveNoteValue>Associated objects: Three bone needles, two vessels</lido:descriptiveNoteValue>
+						</lido:eventDescriptionSet>
+						<lido:eventDescriptionSet lido:type="excavations description">
+							<lido:descriptiveNoteValue>Position torso: supine. Position extremities: Disarticulated legs, extended arms. Orientation: 24E</lido:descriptiveNoteValue>
+						</lido:eventDescriptionSet>
+					</lido:event>
+				</lido:eventSet>
+			</lido:eventWrap>
+			<lido:objectRelationWrap> <!-- Kein subjectWrap! Was in Andreas' Datensatz steht, ist nicht Thema des Schädels. Maya-Zivilisation gehört in classification und/oder periodName-->
+				<lido:relatedWorksWrap>
+					<lido:relatedWorkSet>
+						<lido:relatedWork>
+							<lido:object>
+								<lido:objectID lido:type="http://terminology.lido-schema.org/lido000100">DE-19/PalSep_Model8_crpyt</lido:objectID>
+							</lido:object>
+						</lido:relatedWork>
+						<lido:relatedWorkRelType>
+							<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00616</lido:conceptID>
+							<lido:term xml:lang="en">has architectural context </lido:term> <!--Passt der relType?-->
+						</lido:relatedWorkRelType>
+					</lido:relatedWorkSet>
+					<lido:relatedWorkSet>
+						<lido:relatedWork>
+							<lido:object>
+								<lido:objectWebResource>https://3d.ub.uni-muenchen.de/voyager-explorer.html?root=models/palenque/PalSep_Model8/&amp;document=document.svx.json</lido:objectWebResource>
+								<lido:objectNote>PalSep_Model8</lido:objectNote>
+							</lido:object>
+						</lido:relatedWork>
+						<lido:relatedWorkRelType>
+							<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00617</lido:conceptID>
+							<lido:term xml:lang="en">is documented in</lido:term>
+						</lido:relatedWorkRelType>
+					</lido:relatedWorkSet>
+				</lido:relatedWorksWrap>
+			</lido:objectRelationWrap>
+		</lido:descriptiveMetadata>
+		<lido:administrativeMetadata xml:lang="en">
+			<lido:rightsWorkWrap>
+				<lido:rightsWorkSet>
+				<lido:creditLine>Excavation conducted as part of Proyecto Regional Palenque (PREP)</lido:creditLine>
+				</lido:rightsWorkSet>
+			</lido:rightsWorkWrap>
+			<lido:recordWrap>
+				<lido:recordID lido:type="http://terminology.lido-schema.org/lido000100">PalSep_Model8</lido:recordID>
+				<lido:recordType>
+					<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">http://terminology.lido-schema.org/lido00141</lido:conceptID>
+					<lido:term xml:lang="en">item</lido:term>
+				</lido:recordType>
+				<lido:recordSource lido:type="europeana:dataProvider"/>
+				<lido:recordSource>
+					<lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099" lido:source="isil">https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-19</lido:legalBodyID>
+					<lido:legalBodyName>
+						<lido:appellationValue>LMU München</lido:appellationValue>
+					</lido:legalBodyName>
+				</lido:recordSource>
+				<lido:recordInfoSet lido:type="http://terminology.lido-schema.org/lido00916">
+					<lido:recordInfoLink>https://doi.org/10.5282/palenque-palsep_model8</lido:recordInfoLink>
+				</lido:recordInfoSet>
+			</lido:recordWrap>
+			<lido:resourceWrap>
+				<lido:resourceSet>
+					<lido:resourceRepresentation lido:type="image_master">
+						<lido:linkResource>https://3d.ub.uni-muenchen.de/voyager-explorer.html?root=models/palenque/PalSep_Model8/&amp;amp;document=document.svx.json</lido:linkResource>
+					</lido:resourceRepresentation>
+					<lido:resourceType>
+						<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/entity/Q3859833</lido:conceptID>
+						<lido:term xml:lang="en">3D model</lido:term>
+					</lido:resourceType>
+					<lido:resourceDescription>Photogrammetry / Agisoft Metashape Pro</lido:resourceDescription>
+					<lido:resourceDateTaken>
+						<lido:displayDate>2021</lido:displayDate>
+					</lido:resourceDateTaken>
+					<lido:rightsResource>
+						<lido:rightsType>
+							<lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://creativecommons.org/licenses/by-sa/4.0/</lido:conceptID>
+							<lido:term>CC BY-SA 4.0</lido:term>
+						</lido:rightsType>
+					</lido:rightsResource>
+				</lido:resourceSet>
+			</lido:resourceWrap>
+		</lido:administrativeMetadata>
+	</lido:lido>
+</lido:lidoWrap>

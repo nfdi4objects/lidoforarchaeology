@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Erstellt am 2025-07-25T13:30 mit Skript xml2lido Version 2.1.0; Status: PUBLISHED-->
+<?xml-model xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.1/lido-v1.1.xsd"?>
+<lido xmlns="http://www.lido-schema.org"
+      xmlns:gml="http://www.opengis.net/gml"
+      xmlns:lido="http://www.lido-schema.org"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.lido-schema.org http://www.lido-schema.org/schema/v1.1/lido-v1.1.xsd">
+   <lido:lidoRecID lido:type="http://terminology.lido-schema.org/lido00100">PalSep_Model80</lido:lidoRecID>
+   <lido:objectPublishedID lido:type="http://terminology.lido-schema.org/lido00100">Burial B7</lido:objectPublishedID>
+   <lido:objectPublishedID lido:type="http://terminology.lido-schema.org/lido00099">https://doi.org/10.5282/palenque-palsep_model80</lido:objectPublishedID>
+   <lido:category>
+      <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00096">
+         <skos:prefLabel xml:lang="en">Human-made object</skos:prefLabel>
+         <skos:exactMatch>http://erlangen-crm.org/current/E22_Human-Made_Objec</skos:exactMatch>
+      </skos:Concept>
+      <lido:term lido:addedSearchTerm="yes">man-made object</lido:term>
+   </lido:category>
+   <lido:descriptiveMetadata xml:lang="eng">
+      <lido:objectClassificationWrap>
+         <lido:objectWorkTypeWrap>
+            <lido:objectWorkType lido:type="http://terminology.lido-schema.org/lido00768">
+               <skos:Concept rdf:about="http://vocab.getty.edu/page/aat/300387004">
+                  <skos:prefLabel xml:lang="en">burial sites</skos:prefLabel>
+               </skos:Concept>
+            </lido:objectWorkType>
+         </lido:objectWorkTypeWrap>
+         <lido:classificationWrap>
+            <lido:classification lido:type="http://terminology.lido-schema.org/lido01135">
+               <lido:conceptID lido:type="http://vocab.getty.edu/page/aat/300000809"/>
+               <lido:term lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="en">sites</lido:term>
+            </lido:classification>
+         </lido:classificationWrap>
+      </lido:objectClassificationWrap>
+      <lido:objectIdentificationWrap>
+         <lido:titleWrap>
+            <lido:titleSet>
+               <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="eng">Burial: Burial 7, Individuals A and B</lido:appellationValue>
+            </lido:titleSet>
+         </lido:titleWrap>
+         <lido:repositoryWrap>
+            <lido:repositorySet lido:type="http://terminology.lido-schema.org/lido01018">
+               <lido:displayRepository>Palenque, Mexico</lido:displayRepository>
+               <lido:repositoryName>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">https://d-nb.info/gnd/4044399-1</lido:legalBodyID>
+                  <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/wiki/Q181427</lido:legalBodyID>
+                  <lido:legalBodyName>
+                     <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="eng">Palenque</lido:appellationValue>
+                     <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="spa">Zona arqueológica de Palenque</lido:appellationValue>
+                  </lido:legalBodyName>
+               </lido:repositoryName>
+               <lido:repositoryLocation>
+                  <lido:gml>
+                     <gml:Point>
+                        <gml:coordinates>17.48388,-92.04689</gml:coordinates>
+                     </gml:Point>
+                  </lido:gml>
+                  <lido:partOfPlace>
+                     <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/wiki/Q1859841</lido:placeID>
+                     <lido:namePlaceSet>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="eng">Palenque Municipality</lido:appellationValue>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="ita">Palenque (comune messicano)</lido:appellationValue>
+                        <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="spa">Municipio de Palenque</lido:appellationValue>
+                     </lido:namePlaceSet>
+                     <lido:gml>
+                        <gml:Point>
+                           <gml:coordinates>N 17.433333 E -91.800000</gml:coordinates>
+                        </gml:Point>
+                     </lido:gml>
+                     <lido:partOfPlace>
+                        <lido:placeID lido:type="http://terminology.lido-schema.org/lido00099">http://www.wikidata.org/wiki/Q96</lido:placeID>
+                        <lido:namePlaceSet>
+                           <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="eng">Mexico</lido:appellationValue>
+                           <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="deu">Mexiko</lido:appellationValue>
+                           <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169" xml:lang="ita">Messico</lido:appellationValue>
+                        </lido:namePlaceSet>
+                        <lido:placeClassification>
+                           <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q6256">
+                              <skos:prefLabel xml:lang="eng">country</skos:prefLabel>
+                              <skos:prefLabel xml:lang="de">Land</skos:prefLabel>
+                              <skos:mappingRelation>http://vocab.getty.edu/aat/300387506</skos:mappingRelation>
+                           </skos:Concept>
+                        </lido:placeClassification>
+                     </lido:partOfPlace>
+                  </lido:partOfPlace>
+                  <lido:placeClassification>
+                     <skos:Concept rdf:about="https://vocab.getty.edu/aat/300000810">
+                        <skos:prefLabel xml:lang="eng">archaeological site</skos:prefLabel>
+                        <skos:prefLabel xml:lang="deu">archäologische Stätte</skos:prefLabel>
+                        <skos:altLabel xml:lang="spa">Sito archeologico</skos:altLabel>
+                     </skos:Concept>
+                     <lido:term xml:lang="deu">Archäologische Stätte</lido:term>
+                  </lido:placeClassification>
+               </lido:repositoryLocation>
+            </lido:repositorySet>
+         </lido:repositoryWrap>
+         <lido:objectDescriptionWrap>
+            <lido:objectDescriptionSet>
+               <lido:descriptiveNoteValue xml:lang="eng">Two male adults were buried in Burials 7; one of the them (Individual A) is a primary individual, while the other one (Individual B) has been altered after his body had decomposed</lido:descriptiveNoteValue>
+            </lido:objectDescriptionSet>
+         </lido:objectDescriptionWrap>
+      </lido:objectIdentificationWrap>
+      <lido:eventWrap>
+         <lido:eventSet>
+            <lido:event>
+               <lido:eventType>
+                  <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q331055">
+                     <skos:prefLabel xml:lang="en">Burial</skos:prefLabel>
+                  </skos:Concept>
+               </lido:eventType>
+               <lido:eventActor>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                        <lido:nameActorSet>
+                           <lido:appellationValue>S7A</lido:appellationValue>
+                        </lido:nameActorSet>
+                        <lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+                           <skos:Concept>
+                              <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+                                 <skos:exactMatch>https://www.wikidata.org/wiki/Q6581097</skos:exactMatch>
+                              </skos:Concept>
+                              <skos:prefLabel xml:lang="en">Masculine</skos:prefLabel>
+                           </skos:Concept>
+                        </lido:genderActor>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q18093576">
+                           <skos:prefLabel xml:lang="eng">decedent</skos:prefLabel>
+                           <skos:altLabel xml:lang="eng">dead human</skos:altLabel>
+                        </skos:Concept>
+                     </lido:roleActor>
+                     <lido:extentActor xml:lang="en">Estimated age: 40-45 ys, Articulation: Primary; Position torso: Supine; Position extremities: Extended; Orientation 24 E</lido:extentActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:eventActor>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                        <lido:nameActorSet>
+                           <lido:appellationValue>S7B</lido:appellationValue>
+                        </lido:nameActorSet>
+                        <lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+                           <skos:Concept>
+                              <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+                                 <skos:exactMatch>https://www.wikidata.org/wiki/Q6581097</skos:exactMatch>
+                              </skos:Concept>
+                              <skos:prefLabel xml:lang="en">Masculine</skos:prefLabel>
+                           </skos:Concept>
+                        </lido:genderActor>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q18093576">
+                           <skos:prefLabel xml:lang="eng">decedent</skos:prefLabel>
+                           <skos:altLabel xml:lang="eng">dead human</skos:altLabel>
+                        </skos:Concept>
+                     </lido:roleActor>
+                     <lido:extentActor xml:lang="en">Estimated age: 43.9 ys, Articulation: Reduced primary; Position torso: Supine; Position extremities: Disarticulated legs, extended arms; Orientation 24 E</lido:extentActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:periodName lido:type="http://terminology.lido-schema.org/lido00731">
+                  <lido:term lido:addedSearchTerm="yes">Murciélagos-Balunté</lido:term>
+               </lido:periodName>
+               <lido:eventPlace>
+                  <lido:displayPlace>Structure Patio</lido:displayPlace>
+                  <lido:place>
+                     <lido:placeClassification>
+                        <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q960844">
+                           <skos:conceptID>https://www.wikidata.org/wiki/Q960844</skos:conceptID>
+                           <skos:prefLabel xml:lang="eng">Simple Crypt</skos:prefLabel>
+                        </skos:Concept>
+                     </lido:placeClassification>
+                  </lido:place>
+               </lido:eventPlace>
+               <lido:thingPresent>
+                  <lido:displayObject>Three bone needles, two vessels</lido:displayObject>
+               </lido:thingPresent>
+               <lido:eventDescriptionSet>
+                  <lido:descriptiveNoteValue>Palenque Burial Site Group IV; Reopening: Reduced primary (Individual 7B)</lido:descriptiveNoteValue>
+               </lido:eventDescriptionSet>
+            </lido:event>
+         </lido:eventSet>
+         <lido:eventSet>
+            <lido:event>
+               <lido:eventType>
+                  <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00033">
+                     <skos:prefLabel xml:lang="eng">Excavation</skos:prefLabel>
+                     <skos:prefLabel xml:lang="deu">Ausgrabung</skos:prefLabel>
+                  </skos:Concept>
+               </lido:eventType>
+               <lido:eventActor>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00163">
+                        <lido:actorID lido:pref="http://terminology.lido-schema.org/lido00169"
+                                      lido:type="http://terminology.lido-schema.org/lido00099">https://orcid.org/0000-0001-5395-739X</lido:actorID>
+                        <lido:nameActorSet>
+                           <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">De Tomassi, Mirko</lido:appellationValue>
+                        </lido:nameActorSet>
+                        <lido:nationalityActor>
+                           <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q38">
+                              <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
+                           </skos:Concept>
+                           <lido:term lido:addedSearchTerm="yes">Italy</lido:term>
+                        </lido:nationalityActor>
+                        <lido:genderActor lido:type="http://terminology.lido-schema.org/lido00867">
+                           <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00774">
+                              <skos:prefLabel xml:lang="eng">Male</skos:prefLabel>
+                              <skos:exactMatch>http://www.wikidata.org/wiki/Q6581097</skos:exactMatch>
+                           </skos:Concept>
+                        </lido:genderActor>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q3621491">
+                           <skos:prefLabel xml:lang="eng">archaeologist</skos:prefLabel>
+                        </skos:Concept>
+                     </lido:roleActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:eventActor>
+                  <lido:actorInRole>
+                     <lido:actor lido:type="http://terminology.lido-schema.org/lido00165">
+                        <lido:nameActorSet>
+                           <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">Proyecto Regional Palenque (PREP)</lido:appellationValue>
+                        </lido:nameActorSet>
+                        <lido:nationalityActor>
+                           <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q96">
+                              <skos:prefLabel xml:lang="en">Mexico</skos:prefLabel>
+                           </skos:Concept>
+                           <lido:term lido:addedSearchTerm="yes">Mexico</lido:term>
+                        </lido:nationalityActor>
+                     </lido:actor>
+                     <lido:roleActor>
+                        <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q170584">
+                           <skos:prefLabel xml:lang="eng">project</skos:prefLabel>
+                        </skos:Concept>
+                     </lido:roleActor>
+                  </lido:actorInRole>
+               </lido:eventActor>
+               <lido:eventDate>
+                  <lido:date>
+                     <lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:earliestDate>
+                     <lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:latestDate>
+                  </lido:date>
+               </lido:eventDate>
+            </lido:event>
+         </lido:eventSet>
+      </lido:eventWrap>
+      <lido:objectRelationWrap>
+         <lido:subjectWrap>
+            <lido:subjectSet>
+               <lido:subject lido:type="http://terminology.lido-schema.org/lido00525">
+                  <lido:subjectConcept>
+                     <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q28567"/>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Maya civilization</lido:term>
+                  </lido:subjectConcept>
+               </lido:subject>
+            </lido:subjectSet>
+            <lido:subjectSet>
+               <lido:subject lido:type="http://terminology.lido-schema.org/lido00525">
+                  <lido:subjectConcept>
+                     <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q181427"/>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Palenque</lido:term>
+                  </lido:subjectConcept>
+               </lido:subject>
+            </lido:subjectSet>
+            <lido:subjectSet>
+               <lido:subject lido:type="http://terminology.lido-schema.org/lido00525">
+                  <lido:subjectConcept>
+                     <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q331055"/>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Burial</lido:term>
+                  </lido:subjectConcept>
+               </lido:subject>
+            </lido:subjectSet>
+            <lido:subjectSet>
+               <lido:subject lido:type="http://terminology.lido-schema.org/lido00525">
+                  <lido:subjectConcept>
+                     <skos:Concept rdf:about="http://www.wikidata.org/wiki/Q381885"/>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Tomb</lido:term>
+                  </lido:subjectConcept>
+               </lido:subject>
+            </lido:subjectSet>
+            <lido:subjectSet>
+               <lido:subject lido:type="http://terminology.lido-schema.org/lido00525">
+                  <lido:subjectConcept>
+                     <skos:Concept rdf:about="https://www.wikidata.org/wiki/Q192619"/>
+                     <lido:term lido:pref="http://terminology.lido-schema.org/lido00526" xml:lang="en">Crypt</lido:term>
+                  </lido:subjectConcept>
+               </lido:subject>
+            </lido:subjectSet>
+         </lido:subjectWrap>
+      </lido:objectRelationWrap>
+   </lido:descriptiveMetadata>
+   <lido:administrativeMetadata xml:lang="eng">
+      <lido:recordWrap>
+         <lido:recordID lido:type="http://terminology.lido-schema.org/lido00100">PalSep_Model80</lido:recordID>
+         <lido:recordType>
+            <skos:Concept rdf:about="http://terminology.lido-schema.org/lido00141">
+               <skos:prefLabel xml:lang="eng">Item-level record</skos:prefLabel>
+            </skos:Concept>
+         </lido:recordType>
+         <lido:recordSource>
+            <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099"
+                              lido:source="ISIL (ISO 15511)">https://sigel.staatsbibliothek-berlin.de/suche/?isil=DE-19</lido:legalBodyID>
+            <lido:legalBodyName>
+               <lido:appellationValue>LMU München - Universitätsbibliothek</lido:appellationValue>
+            </lido:legalBodyName>
+            <lido:legalBodyWeblink>https://www.ub.uni-muenchen.de/index.html</lido:legalBodyWeblink>
+         </lido:recordSource>
+         <lido:recordRights>
+            <lido:rightsType lido:type="http://terminology.lido-schema.org/lido00921">
+               <skos:Concept rdf:about="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <skos:prefLabel xml:lang="eng">Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</skos:prefLabel>
+               </skos:Concept>
+            </lido:rightsType>
+            <lido:rightsHolder>
+               <lido:legalBodyID lido:type="http://terminology.lido-schema.org/lido00099">https://orcid.org/0000-0001-5395-739X</lido:legalBodyID>
+               <lido:legalBodyName>
+                  <lido:appellationValue lido:pref="http://terminology.lido-schema.org/lido00169">De Tomassi, Mirko</lido:appellationValue>
+               </lido:legalBodyName>
+            </lido:rightsHolder>
+            <lido:creditLine>Mirko De Tomassi - Attribution-ShareAlike 4.0 (CC BY-SA 4.0)</lido:creditLine>
+         </lido:recordRights>
+         <lido:collection>
+            <lido:object>
+               <lido:objectName>
+                  <lido:appellationValue>Burial 07</lido:appellationValue>
+               </lido:objectName>
+            </lido:object>
+         </lido:collection>
+      </lido:recordWrap>
+      <lido:resourceWrap>
+         <lido:resourceSet>
+            <lido:resourceID lido:type="http://terminology.lido-schema.org/lido00100">PalSep_Model80</lido:resourceID>
+            <lido:resourceRepresentation lido:type="http://terminology.lido-schema.org/lido00468">
+               <lido:linkResource lido:formatResource="imodel/gltf-binary">https://3d.ub.uni-muenchen.de/voyager-explorer.html?root=models/palenque/PalSep_Model80/&amp;document=document.svx.json</lido:linkResource>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType>number</lido:measurementType>
+                  <lido:measurementUnit>polygon</lido:measurementUnit>
+                  <lido:measurementValue>8473395</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+               <lido:resourceMeasurementsSet>
+                  <lido:measurementType>number</lido:measurementType>
+                  <lido:measurementUnit>mesh</lido:measurementUnit>
+                  <lido:measurementValue>98999</lido:measurementValue>
+               </lido:resourceMeasurementsSet>
+            </lido:resourceRepresentation>
+            <lido:resourceType>
+               <lido:conceptID lido:type="http://terminology.lido-schema.org/lido00099">https://www.wikidata.org/wiki/Q3859833</lido:conceptID>
+               <lido:term xml:lang="eng">3D model</lido:term>
+            </lido:resourceType>
+            <lido:resourceDescription>Photogrammetry / Agisoft Metashape Pro</lido:resourceDescription>
+            <lido:resourceDateTaken>
+               <lido:displayDate>2016</lido:displayDate>
+               <lido:date>
+                  <lido:earliestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:earliestDate>
+                  <lido:latestDate lido:type="http://terminology.lido-schema.org/lido00528">2016</lido:latestDate>
+               </lido:date>
+            </lido:resourceDateTaken>
+         </lido:resourceSet>
+      </lido:resourceWrap>
+   </lido:administrativeMetadata>
+</lido>
