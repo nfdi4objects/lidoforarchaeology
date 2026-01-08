@@ -18,7 +18,7 @@ Digitale Dienste: Forschungsunterstützende Dienste
 E-Mail: [andreas.frech@ub.uni-muenchen.de](mailto:andreas.frech@ub.uni-muenchen.de)
   
 Anja Gerber  
-Wissenahaftliche Mitarbeiterin NFDI4Objects  
+Wissenschaftliche Mitarbeiterin NFDI4Objects  
 Klassik Stiftung Weimar  
 Querschnittsdirektion Digitale Transformation und Innovationsmanagment  
 E-Mail: [anja.gerber@klassik-stiftung.de](mailto:anja.gerber@klassik-stiftung.de)
